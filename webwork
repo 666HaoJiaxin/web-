@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>食遍中国</title>
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+    }
+    .clear::after {
+      content: '';
+      height: 0;
+      display: block;
+      clear: both;
+    }
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .header {
+      height: 80px;
+      background: white;
+    }
+    .logo {
+      margin-top: 10px;
+      float: left;
+      height: 60px;
+      width: 200px;
+    }
+    .nav {
+      float: left;
+      width: 600px;
+    }
+    .nav li {
+      float: left;
+    }
+    .nav li a {
+      display: block;
+      width: 100px;
+      text-align: center;
+      padding: 24px 0;
+      font-size: 20px;
+      color: black;
+      border-bottom: 3px solid white;
+    }
+    .nav li a:hover {
+      color: orange;
+      border-color: orange;
+    }
+    .find{
+       width: 100px;
+        height: 40px;
+        float: left ;
+        margin-top: 31px;
+
+    }
+    
+    .form{
+      width:360px;
+      height: 40px;
+      float: left;
+      background:url(美食/搜索.png) no-repeat center;
+    }
+    .nav2{
+      width: 50px;
+      height: 20px;
+      float: right;
+      padding-top: 30px;
+      color:rgba(102,102,102,1);
+    }
+    .product {
+      background: #FFCC33;
+      height: 1500px;
+      padding-top: 20px;
+    }
+   .container2 p{
+    width: 1480px;
+    font-size: 18px;
+    text-align: left;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+   }
+    .visa {
+      float: left;
+      width: 1480px;
+      padding-left: 35px;
+      
+    }
+    .visa li {
+      float: left;
+      margin-bottom: 4px;
+      margin-left: 4px;
+
+    }
+    .visa img {
+      width: 200px;
+      height: 150px;
+    }
+    .product li {
+      position: relative;
+    }
+    .product visa p {
+       position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 47px;
+      line-height: 47px;
+      font-size: 18px;
+      background: rgb(0, 0, 0, 0.4);
+      color: white;
+      padding-left: 38px;
+    }
+    .product span {
+      display: inline-block;
+      font-size: 26px;
+      margin-left: 10px;
+    }
+    .introudction{
+      width: 1490px;
+      padding-top: 20px;
+      position: relative;
+      border: 1px solid #000000;
+      margin:auto; 
+    }
+    .photo{
+      width: 600px;
+      height: 300px;
+      float: left;
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+    
+    .word{
+      float: left;
+      width: 800px;
+      height: 300px;
+      padding-top: 30px;
+      font-family:Microsoft YaHei;
+    }
+    .word h2{
+      text-align: center;
+    }
+    .word ul{
+      font-size: 20px;
+     line-height: 20px;
+      pad
+    }
+    .word p{
+      font-size: 20px;
+       
+    }
+    .footer {
+      height: 120px;
+      line-height: 120px;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+    .footer li{
+      padding-top: 30px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header ">
+    <div class="container">
+      <img src="美食/logo.png" alt="" class="logo">
+      <ul class="nav clear">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">热门美食</a></li>
+        <li><a href="#">新品推荐</a></li>
+        <li><a href="#">爆款预订</a></li>
+        <li><a href="#">客服咨询</a></li>
+      </ul>
+   <div class="find clear">
+       <form class="form clear">
+            <input type="text" placeholder="美食名称/地名" name="search">
+            <input type="button" class="submit"> 
+        </form>
+      </div>
+        <ul class="nav2 clear">
+          <li><a href="#" class="exc">收藏</a></li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="product">
+      <div class="container2 clear">
+     <p>&nbsp &nbsp&nbsp&nbsp &nbsp美食，顾名思义就是美味的食物，贵的有山珍海味，便宜的有街边小吃。其实美食是不分贵贱的，只要是自己喜欢的，都可以称之为美食。中国素有“烹饪王国”这个美誉。在中国这个大家庭里，有五十六个小家庭，每个家庭都有自己的特色美食。美食吃前有期待、吃后有回味，享受美食也要看场合，场合好美食吃起来才有味道。世界各地美食文化博大精深，营养物质各不相同，品味更多美食，享受更多健康，也让人吃的更加开心。
+美食不仅仅是餐桌上的食物。还包括休闲零食、各种饼干、糕点、糖类，蜜饯、干果、肉制食品、茶饮冲泡等制品，各有各的风味，都可称之为美食。</p>
+      </div>
+      <div class="visa">
+        <ul class="clear">
+           <li>
+            <img src="美食/绍兴腐乳.jpg" alt="">
+            <p>浙江：绍兴腐乳 </p>
+          </li>
+  
+          <li>
+            <img src="美食/鸭血粉丝 (1).jpg" alt="">
+            <p>江苏：鸭血粉丝 </p>
+          </li>
+          <li>
+            <img src="美食/八宝肉圆 (1).jpg" alt="">
+            <p>安徽：八宝肉圆 </p>
+          </li>
+          <li>
+            <img src="美食/瓦罐煨汤 (1).jpg" alt="">
+            <p>江西：瓦罐煨汤 </p>
+          </li>
+          <li>
+            <img src="美食/南翔小笼包.jpg" alt="">
+            <p>上海：南翔小笼包 </p>
+          </li>
+          <li>
+            <img src="美食/煎饼果子.jpg" alt="">
+            <p>天津：煎饼果子 </p>
+          </li>
+          <li>
+            <img src="美食/锅贴饺子.jpg" alt="">
+            <p>保定：锅贴饺子 </p>
+          </li>
+          <li>
+            <img src="美食/刀削面.jpg" alt="">
+            <p>山西：刀削面</p>
+          </li>
+          <li>
+            <img src="美食/内蒙古奶茶.jpg" alt="">
+            <p>内蒙古：奶茶</p>
+          </li>
+          <li>
+            <img src="美食/老边饺子.jpg" alt="">
+            <p>辽宁：老边饺子</p>
+          </li>
+          <li>
+            <img src="美食/熏肉大饼.jpg" alt="">
+            <p>吉林:熏肉大饼</p>
+          </li>
+           <li>
+            <img src="美食/蟹黄汤包.jpg" alt="">
+            <p>安徽:蟹黄汤包</p>
+          </li>
+          <li>
+            <img src="美食/北京烤鸭.jpg" alt="">
+            <p>北京：烤鸭</p>
+          </li>
+            <li>
+            <img src="美食/重庆火锅.jpg" alt="">
+            <p>重庆：火锅</p>
+          </li>
+        </ul>
+      </div>
+
+       <div class="introdction">
+      <div class="photo">
+        <img src="美食/武汉热干面.jpg" alt="">
+            <p>武汉热干面</p>
+      </div>
+        <div class="word">
+          <h2>如何在家自制好吃的热干面</h2>
+          <br/>
+          <p>食材准备：面条 150g&nbsp花生 10g&nbsp萝卜丁 20g&nbsp生抽 少许&nbsp芝麻酱 少许&nbsp蚝油 少许&nbsp麻油 少许&nbsp花椒粉 少许&nbsp辣椒油 少许&nbsp鸡精 少许&nbsp葱花 少许&nbsp 香菜 按个人口味</p>
+          <br/>
+          <ul>
+            <li>1.面条上锅蒸5分钟。</li>
+            <li>2.花生米压碎，萝卜干切丁，香菜切碎。</li>
+            <li>3.面条蒸熟放油搅拌。</li>
+            <li>4.空碗中放芝麻酱，蚝油，生抽，麻油，花椒粉，鸡精，加热水搅匀。</li>
+            <li>5.面条煮30秒盛出将调好的酱和花生碎和咸菜倒入拌好。</li>
+          </ul>
+          <br/>
+            <p>美味的热干面就做好啦！在家自制热干面你get了吗？</p>
+          </div>
+         <div class="introdction">
+        <div class="photo">
+        <img src="美食/西湖醋鱼.jpg" alt="">
+            <p>西湖醋鱼</p>
+      </div>
+        <div class="word">
+          <h2>如何在家自制西湖醋鱼</h2>
+          <br/>
+          <p>食材准备：草鱼 900克&nbsp调料:醋50克，黄酒 25克，酱油 75克，白糖 60克，姜1块，葱适量，水淀粉 50克</p>
+          <br/>
+          <ul>
+            <li>1.把姜去皮切成碎末，去掉的姜片不要丢掉，准备好醋、酱油、黄酒、水淀粉和白糖。</li>
+            <li>2.草鱼去鳞去膛洗净，把鱼的一面划上5刀，翻面从尾部入到，沿脊骨向头部劈近，对切分为2半，斩去鱼牙不用，去掉鱼头的淤血，在没有脊骨的身上长划一刀。</li>
+            <li>3.锅中放入葱姜片和清水，烧开后，捞出葱姜，下入鱼用筷子把鱼鳍支起来，让鱼成型，煮上3分钟，撇去血末，打入凉水2次。</li>
+            <li>4.倒出汤汁，锅内加入少许的原汤和适量的酱油、绍酒和姜末。捞出鱼，码放在盘中</li>
+            <li>5.锅中的原汁加入白糖、米醋和剩下的酱油。烧开后加入湿淀粉烧至汤汁浓缩。</li>
+            <li>6.把制作好的汤汁均匀的撒在鱼的身上，再撒上剩余的姜末即可。</li>
+          </ul>
+          <br/>
+            <p>烹饪技巧：<br/>
+              1.鱼不要太大，否则口感不够鲜嫩。煮鱼时，可用筷子扎一下，若是轻松扎进去，即是熟了。<br/>
+              2.炒汁的动作要快，芡汁不宜过于粘稠，芡汁糊化后，用大火再烧几秒钟，待芡汁冒大泡时即刻关火，然后淋在鱼身上即可，芡汁的浓稠要掌握合适，比米汤稍稠就可以。<br/>
+              3.氽鱼的时候要沸水下锅。</p>
+        </div> 
+    </div>
+  </div> 
+</div>
+  <div class="footer">
+    <li>更多美食 请关注“食遍中国”网站</li>
+    <li>2018-2020 食遍中国 All right Reserved</li>
+  </div>
+</body>
+</html>
