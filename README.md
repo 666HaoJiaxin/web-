@@ -1,4 +1,4 @@
-# web-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -78,7 +78,7 @@
       color:rgba(102,102,102,1);
     }
     .product {
-      background: #FFCC33;
+      
       height: 1500px;
       padding-top: 20px;
     }
